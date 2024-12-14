@@ -1,0 +1,79 @@
+<!-- Second page is a page where you use all the media element existing in html to create powerful message about yourself. 
+ Specially use picture element with more that 3 sources with responsiveness for mobile, tablet and laptop. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <a id="top-anchor"></a>
+    <header>
+        <h1>Who is Peculiar?</h1>
+        <p style="color:brown;"> Welcome!</p> 
+        <p>This page is a powerful representation of myself. Get to know me and what I stand for. I'm willing to take you through this journey to media elements that HTML has to offer. Enjoy!!!</p>
+      </header>
+      <section>
+        <h2>Camera! Lights!! Action!!!</h2>
+        <p>Don't worry too much about this picture resolution.This image adjusts to the screen size of your device.</p>
+          
+        <picture>
+          <source srcset="peckysweet.jpeg" media="(max-width: 600px)">
+          <source srcset="peckysweet.jpeg" media="(max-width: 1024px)">
+          <source srcset="peckysweet.jpeg" media="(min-width: 1025px)">
+          <img src="peckysweet.jpeg" alt="About Me Image">
+        </picture>
+      </section>
+
+      <section>
+        <h2>Embracing my inner child.</h2>
+        <p>This video highlights an important part of my journey.
+             Being a young girl laced with to many uncertainties,I am glad I'm constantly finding my spark. <br>
+              Easy? NO  <br>
+              Progressive? YES <br>
+             </p>
+        <video controls>
+          <source src="Playfulgirl.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section>
+        <h2>What do I love to listen to?</h2>
+        <p>This song reflects how amazing God is and how precious I am to Him.
+        I could listen to Sunmisola all day.Gosh!!!</p>
+        <p>Her songs deeply resonate with and give me a sense of belonging. Abba is really my BABA</p>
+        <audio controls>
+          <source src="Amazing.mpeg" type="audio/mpeg">
+        </audio>
+      </section>
+
+      <section>
+        <h2>Where am I at?</h2>
+        <p>I'm somewhere inbetween. Find out where.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.7182524422083!2d3.2707687736509707!3d6.681783321306501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b976c2a73eaff%3A0x98661ccc123ca132!2sAdfarm%20Estate%2C%20Ifako-Ijaiye%2C%20Ifako%2FIjaye%20101232%2C%20Lagos!5e0!3m2!1sen!2sng!4v1734188733700!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <section>
+        <h2>Words inked in GOLD </h2>
+        <p> I experience many seasons in my life and I have a couple of words that keep me going:</p>
+        <blockquote>
+          <em>"God cannot mismanage your life"</em>
+         </blockquote>
+         <blockquote>
+            <em>"Ignite a fire of success within you,do not let it be extinguished"</em>
+          </blockquote>
+          <blockquote>
+            <em>Success is minimizing your errors.</em>
+          </blockquote>
+      </section>
+
+      <footer>
+        <p>Thank you for visiting my page!</p>
+      </footer>
+
+<a href="#top"> Want to meet me again? Click here</a>
+</body>
+</html>
